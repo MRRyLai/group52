@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054771318825",
+    "project_id": "ourfood-e799f",
+    "storage_bucket": "ourfood-e799f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054771318825:android:23d8404e0a0431bb32cc38",
+        "android_client_info": {
+          "package_name": "com.example.ourfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054771318825-4vmj9vt2c2d8e0gcupsi37rdv084k3c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmUgesB36_sIJYa1dP8hA1bqBKjFNtdOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054771318825-4vmj9vt2c2d8e0gcupsi37rdv084k3c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
