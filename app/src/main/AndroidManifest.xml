@@ -16,6 +16,12 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
+            android:name=".ActivityOffer"
+            android:exported="false" />
+        <activity
+            android:name=".EverydayRecommend"
+            android:exported="false" />
+        <activity
             android:name=".KoreanStoreActivity"
             android:exported="false" />
         <activity
