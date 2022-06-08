@@ -1,4 +1,4 @@
-package com.example.ourfood;
+package com.example.group5;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,17 +9,19 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.ourfood.MainActivity;
+import com.example.ourfood.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.FirebaseDatabase;
 
-public class LoginActivity extends AppCompatActivity implements OnCompleteListener<AuthResult> {
+public class Login extends AppCompatActivity implements OnCompleteListener<AuthResult> {
 
     private EditText etEmail;
     private EditText etPassword;
     FirebaseAuth firebaseAuth;
+    static public String log_username = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +29,7 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
         setContentView(R.layout.activity_login);
 
         etEmail = findViewById(R.id.et_email);
-        etPassword = findViewById(R.id.et_password);
+        etPassword = findViewById(R.id.et_phone);
         firebaseAuth = FirebaseAuth.getInstance();
     }
     public void onLogin(View view){

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.group5.Login;
+
 public class MainActivity extends AppCompatActivity {
     public static boolean VALID_USER = false;
 
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!VALID_USER){
             Intent intent = new Intent();
-            intent.setClass(this, LoginActivity.class);
+            intent.setClass(this, Login.class);
             startActivity(intent);
         }
 

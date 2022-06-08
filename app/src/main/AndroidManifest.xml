@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OurFood">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.group5.Login"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.example.group5.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".ActivityOffer"

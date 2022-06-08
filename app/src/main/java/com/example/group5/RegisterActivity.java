@@ -1,7 +1,9 @@
-package com.example.ourfood;
+package com.example.group5;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.ourfood.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -30,7 +32,7 @@ public class RegisterActivity extends AppCompatActivity implements OnCompleteLis
         setContentView(R.layout.activity_register);
 
         etEmail = findViewById(R.id.et_email);
-        etPassword = findViewById(R.id.et_password);
+        etPassword = findViewById(R.id.et_phone);
         etPhone = findViewById(R.id.et_phone);
 
         firebaseAuth = FirebaseAuth.getInstance();

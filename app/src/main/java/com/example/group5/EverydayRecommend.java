@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.ourfood.R;
+
 public class EverydayRecommend extends AppCompatActivity {
 
     @Override

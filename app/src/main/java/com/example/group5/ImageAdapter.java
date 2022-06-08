@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.ourfood.R;
+
 public class ImageAdapter extends BaseAdapter {
     private Context context;
     private final String[] mobileValues;

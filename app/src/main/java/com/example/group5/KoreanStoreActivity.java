@@ -10,6 +10,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.ourfood.R;
+
 public class KoreanStoreActivity extends AppCompatActivity {
     private Integer [] storeStar = {R.drawable.nostar, R.drawable.onestar, R.drawable.twostar, R.drawable.threestar, R.drawable.fourstar, R.drawable.fivestar};
     private Integer [] storeImg = {R.drawable.korean_store1, R.drawable.korean_store2, R.drawable.korean_store3};

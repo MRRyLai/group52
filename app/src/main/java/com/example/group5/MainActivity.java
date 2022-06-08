@@ -9,12 +9,16 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageButton;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.ourfood.R;
+
 public class MainActivity extends AppCompatActivity {
-//    RecyclerViewAdapter mAdapter;
+    //    RecyclerViewAdapter mAdapter;
     public static final String STORE_NO = "store_no";
+    SearchView svintroduce;
     ImageButton ib1,ib2;
     String[] fromColumns = {"飲料專區","炸物專區","日式料理","台灣小吃","韓式料理","冰品專區","義式料理","泰式料理"};
     int[] toViews = {R.drawable.food_drinks, R.drawable.food_fries,
@@ -26,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        svintroduce = findViewById(R.id.sv_introduce);
 //        RecyclerView recyclerView = findViewById(R.id.recyclerView);
 //        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 //        ArrayList arrayList = new ArrayList();
@@ -62,6 +67,16 @@ public class MainActivity extends AppCompatActivity {
             case R.id.ib_discount:
                 Intent intent1 = new Intent(MainActivity.this, ActivityOffer.class);
                 startActivity(intent1);
+                break;
+            case R.id.ib_home:
+                break;
+            case R.id.ib_shpooingcar:
+                Intent intent2 = new Intent(MainActivity.this, ShoppingcarActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.ib_menu:
+                Intent intent3 = new Intent(MainActivity.this, MenuActivity.class);
+                startActivity(intent3);
                 break;
         }
     }
